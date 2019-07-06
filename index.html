@@ -25,14 +25,20 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" >   
+  <div class="bg">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
+    
+    <a class="navbar-brand js-scroll-trigger" href="/">
       <span class="d-block d-lg-none">Jay Patel</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile-index rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
+      <div class="d-none d-lg-block person-content-index">
+            <h3 class="person-title">Jay Patel</h1>
+            <h3 class="person-subtitle">Software Developer</h2>
+      </div>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -40,41 +46,46 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger" href="skills.html">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          <a class="nav-link js-scroll-trigger" href="experience.html">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          <a class="nav-link js-scroll-trigger" href="projects.html">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          <a class="nav-link js-scroll-trigger" href="education.html">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
+          <a class="nav-link js-scroll-trigger" href="resume.html">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Projects</a>
+          <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+    <div class="container-fluid p-0 bg" >
+          <section class="resume-section p-3 p-lg-5 d-flex " id="about">
       <div class="w-100">
-        <h1 class="mb-0">Jay
-          <span class="text-primary">Patel</span>
+        
+        <h1 class="mb-0">Hi, I'm Jay
+         <!--  <span class="text-primary">PATEL</span> -->
         </h1>
-        <div class="subheading mb-5">Software Developer 
-          
+
+        <div class="subheading mb-3">Software Developer</div>
+
+        <p class="lead mb-5">Experienced Software Engineer with a demonstrated history of working in the media/e-commerce industry. Skilled in HTML, CSS, Javascript, PHP, jQuery, AJAX, RESTful WebServices, MS SQL server.</p>
+
+
+        <div class="w-100">
+        <a class="home-buttons" href="skills.html">skills</a>
+        <a class="home-buttons" href="experience.html">experience</a>
         </div>
-        <p class="lead mb-5">Experienced Software Engineer with a demonstrated history of working in the media/e-commerce industry. Skilled in HTML, CSS, Javascript, PHP, jQuery, AJAX, RESTful WebServices, MS SQL server and Android app.</p>
+        <br/>
+
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/jpa1b2c3/">
             <i class="fab fa-linkedin-in"></i>
@@ -82,242 +93,12 @@
           <a href="https://github.com/jaypatel0717">
             <i class="fab fa-github"></i>
           </a>
-          <!--<a href="#">
-            <i class="fab fa-twitter"></i>
+           <a href="mailto:jaypatel0717@email.com">
+            <i class="fa fa-envelope"></i>
           </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>-->
         </div>
       </div>
     </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Developer</h3>
-            <div class="subheading mb-3">Consolidated Marketing Services (CMS)</div>
-            <!--<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>-->
-            <ul>
-              <li> Developing ERP(Enterprise Resource Planning) using PHP Codeigniter framework and MS SQL server.</li>
-              <li> Developing frontend UI using Bootstrap, Javascript and jQuery.</li>
-              <li>Implementing PDF generator and Excel file generator using third party libraries such as MPDF, phpExcel. </li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2018 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Developer</h3>
-            <div class="subheading mb-3">Bsquare Company </div>
-            <!--<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>-->
-            <ul>
-              <li> Developed and design web application using Html, CSS, JavaScript, AngularJS and jQuery. </li>
-              <li> Developed Web based Application using .Net (MVC), C# and Implemented SQL database structures that integrate with RESTful Web API application.</li>
-              <li> Developed RESTful Web API in .Net and used API to fetch data from database for mobile and web application.</li>
-              <li>Troubleshot and resolved bugs in .NET applications to ensure optimal development environment.</li>
-
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2017 - December 2017</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Developer</h3>
-            <div class="subheading mb-3">JetSynthesys Pvt. Ltd.</div>
-            <ul>
-
-              <li> Developed web based application using .Net (MVC), C#, JavaScript, AngularJS, Html, CSS and jQuery. </li>
-              <li> Built infrastructure using SQL Server. Built stored procedures, tables and trigger functions using SQL. </li>
-              <li> Implemented CRUD operation for administrator to manage users and upload event data on web application using .Net C#, MVC and SQL. Also I created web API using PHP and MySQL.</li>
-              <li> Developed RESTful Web API for Mobile App and Web application using .Net (MVC)</li>
-              <li> Collaborated with other teams to maintain and fix defects in ASP.Net for web application.</li>
-              <li> Developed windows phone app using C# (4.5) and implemented RESTful web API to fetch data. Also used google API to find exact latitude and longitude coordinates and get locations surrounding the specific point. </li>
-
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Febuary 2013 - December 2016</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Junior Software Developer</h3>
-            <div class="subheading mb-3">Pulps Technology </div>
-            <ul>
-              <li> Developed web based application using C#, .Net, Html, CSS, JavaScript, and Ajax. Created store procedures, Queries and tables using SQL Server 2005.</li>
-              <li> Troubleshot and resolved bugs in .NET applications to ensure optimal development environment.</li>
-              <li> Developed Windows Forms user interface projects with initial layout and base controls.</li>
-
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2012 - January 2013</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Parul University, India</h3>
-            <div class="subheading mb-3">Bachelor's of Information Technology</div>
-            <div>Information Technology(IT)</div>
-            <!--<p>GPA: 3.23</p>-->
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2008 - December 2011</span>
-          </div>
-        </div>
-
-       <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
-          </div>
-        </div>-->
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages</div>
-        <ul>
-          <li>Javascript</li>
-          <li>PHP</li>
-          <li>Jquery & Ajax</li>
-          <li>Microsoft SQL ( Database )</li>
-          <li>Html & CSS</li>
-          <li>RESTful WebServices</li>
-        </ul>
-        <!--<ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-        </ul>-->
-
-        <div class="subheading mb-3">Tools</div>
-        <ul>
-          <li>Visual Studio Code</li>
-          <li>Sublime Text</li>
-        </ul>
-        <!--<ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-          </ul>-->
-        </div>
-      </section>
-
-      <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="resume">
-      <div class="w-100">
-        <h2 class="mb-5"> Resume</h2>
-        <button class="buttonClass" type="button">Download Resume</button>
-      </div>
-    </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-        <div class="w-100">
-          <h2 class="mb-5">Interests</h2>
-        <!--<p>Apart from being a software developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>-->
-          <ul>
-            <li>Hobbies & Interests – Gym, Hiking, Playing Tenis, Pool, Blowing and Travel.</li>
-            <li>
-              Activities & Interests – In my free time exploring the latest technology in programming and solving complex coding issues.
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-        <div class="w-100">
-          <h2 class="mb-5">Projects</h2>
-          <ul><li>PHP Unit Test</li>
-            <li>React - Django Project</li>
-
-          </ul>
-
-        </div>
-      </section>
-
     </div>
 
     <!-- Bootstrap core JavaScript -->
@@ -329,7 +110,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
-
+</div>
   </body>
 
   </html>

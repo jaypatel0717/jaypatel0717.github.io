@@ -73,7 +73,7 @@ function modules() {
 // CSS task
 function css() {
   return gulp
-    .src("./scss/**/*.scss")
+    .src(['./css/*.css'])
     .pipe(plumber())
     .pipe(sass({
       outputStyle: "expanded",
@@ -116,9 +116,10 @@ function js() {
 
 // Watch files
 function watchFiles() {
-  gulp.watch("./scss/**/*", css);
+  gulp.watch("./css/**/*", css);
   gulp.watch(["./js/**/*", "!./js/**/*.min.js"], js);
   gulp.watch("./**/*.html", browserSyncReload);
+  gulp.watch("./**/*.css", browserSyncReload);
 }
 
 // Define complex tasks

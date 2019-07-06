@@ -4,8 +4,90 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+/*!
+ * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  /*font-family: "Neue Helvetica W01","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+  font-family: "Roboto", sans-serif;
+  /*font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';*/
   padding-top: 54px;
   color: #868e96;
 }
@@ -23,23 +105,30 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #343a40;
+  /*font-family: "Neue Helvetica W01","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+  font-family: "Roboto", sans-serif;
+  /*font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';*/
+  font-weight: 50;
+  /*font-size: 16rem;*/
+  /*text-transform: uppercase;*/
+  color: #333a40;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 3rem;
   line-height: 5.5rem;
+  /*text-shadow: 1px 1px #A9A9A9;*/
+  color: #495057;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.0rem;
+  color: #696969;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.3rem;
+  /*text-shadow: 1px 1px #A9A9A9;*/
 }
 
 p.lead {
@@ -48,10 +137,11 @@ p.lead {
 }
 
 .subheading {
-  text-transform: uppercase;
   font-weight: 500;
+  /*text-transform: uppercase;
+  
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 1.5rem;
+  font-size: 1.5rem;*/
 }
 
 .social-icons a {
@@ -83,7 +173,7 @@ p.lead {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
+  font-weight: 500;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
@@ -111,14 +201,57 @@ p.lead {
   #sideNav .navbar-brand {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    margin: auto auto 0;
-    padding: 0.5rem;
+    /*display: flex;*/
+    /*margin: auto auto 0;*/
+    padding: 0.7rem;
+    width: 170px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    /*background-color: rgba(255, 0, 0, 0.6);*/
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 25rem;
+    max-width: 10rem;
     max-height: 10rem;
+    margin-top: 2rem;
+    /*padding-left: 10rem;*/
     /*border: 0.5rem solid rgba(255, 255, 255, 0.2);*/
+    /*    display: absolute;
+        margin-left: -140px;
+    margin-top: 20px;
+    padding-right: 9px;
+    padding-left: 0px;
+  */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+  }
+  .bg .navbar-brand .img-profile-index {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-top: 2rem;
+    /*border: 0.5rem solid rgba(255, 255, 255, 0.2);*/
+    /*    display: absolute;
+        margin-left: -140px;
+    margin-top: 20px;
+    padding-right: 9px;
+    padding-left: 0px;
+  */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+  }
+  .bg .navbar-brand .person-content-index {
+    margin-left: -167px;
+    margin-top: 210px;
+    padding-right: 29px;
+    padding-left: -0px;
+  }
+  #sideNav .navbar-brand .person-content {
+    margin-left: -167px;
+    margin-top: 210px;
+    padding-right: 29px;
+    padding-left: -0px;
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -152,10 +285,19 @@ section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
+  overflow: auto;
+}
+
+section.resume-section .resume-item {
+  height: auto;
+  /*overflow: hidden;*/
+  /*overflow: hidden;*/
+  /*position: relative;*/
 }
 
 section.resume-section .resume-item .resume-date {
   min-width: none;
+  position: absolute;
 }
 
 @media (min-width: 768px) {
@@ -174,12 +316,8 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
-.bg-primary {
-  background-color: #567787 !important;
-}
-
 .text-primary {
-  color: #567787 !important;
+  color: #808080 !important;
 }
 
 a {
@@ -190,9 +328,112 @@ a:hover, a:focus, a:active {
   color: #824027;
 }
 
-.buttonClass{
-    background-color: #567787;
+@media screen and (min-width: 200px) {
+  .bg-primary {
+    background-attachment: fixed;
+    /*background-color: #696969 !important;*/
+    height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 128, 128, 0.7)), to(rgba(128, 128, 128, 0.7))), url("../img/test.jpg") no-repeat;
+    /*background: linear-gradient(rgba(105,105,105, 0.7), rgba(105,105,105, 0.7)), url("../img/skyline1.jpg") no-repeat;*/
+    background-size: cover;
+  }
+  .bg {
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.6))), url("../img/test.jpg") top center no-repeat;
+    /*background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/skyline1.jpg") top center no-repeat;*/
+    background-position: center center;
+    background-size: cover;
+    /*height: auto;*/
+    -o-background-size: cover;
+  }
+  .bg .navbar {
+    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(75, 107, 141, 0.7)), to(rgba(74, 107, 142, 0.7)));*/
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(105, 105, 105, 0.7)), to(rgba(105, 105, 105, 0.7)));
+    background: linear-gradient(rgba(105, 105, 105, 0.7), rgba(105, 105, 105, 0.7));
+    -webkit-background-size: 100px;
+    background-position: center center;
+    background-size: cover;
+  }
+  .bg section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    padding-left: 24% !important;
+    max-width: 75rem;
+    overflow: auto;
+    /* padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+   
+    max-width: 105rem;
+    overflow: auto;*/
+  }
+  .bg .navbar .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /*display: flex;*/
+    /*margin: auto auto 0;*/
+    padding: 0.5rem;
+    width: 170px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    /*background-color: rgba(255, 0, 0, 0.6);*/
+  }
+  .timeline_element-date {
+    position: absolute;
+    top: 0;
+    bottom: -55px;
+    left: 0;
+    width: 130px;
+    padding: 30px 15px;
+    color: #999;
+    text-align: right;
+    font-style: italic;
+    line-height: 30px;
+    border-right: 1px solid #ddd;
+  }
+  .timeline_element-date:after {
+    content: " ";
+    position: absolute;
+    top: 42.5px;
+    right: -2.5px;
+    width: 5px;
+    height: 5px;
+    background-color: rgba(187, 30, 30, 0.8);
+  }
+  .first {
+    position: relative;
+    height: auto;
+  }
+  .resume-content {
+    padding: 25px 0px 0px 175px;
+  }
+  .buttonClass {
+    background-color: #696969;
     padding: 10px 10px 10px 10px;
     color: white;
     border: white;
+  }
+   .home-buttons{
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px 20px 10px;
+    text-align: center;
+    background-
+    color: white;
+    color: #696969;
+    font-size: 1.2rem;
+   }
+
+  .skills {
+    padding: 10px 57px;
+  }
+
+ 
 }
