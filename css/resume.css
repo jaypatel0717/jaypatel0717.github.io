@@ -322,10 +322,19 @@ section.resume-section .resume-item .resume-date {
 
 a {
   color: #567787;
+ 
 }
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+span{
+  color: #000000;
+}
+
+.link{
+  font-size: 14px;
 }
 
 @media screen and (min-width: 200px) {
